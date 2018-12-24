@@ -1,0 +1,340 @@
+.preheader {
+	background-color: #e9f0f7 !important;
+	width: 100%;
+	padding: 15px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 12px;
+	text-align: center;
+	color: black;
+	padding: 15px 0 15px 0;
+}
+
+.pushDown {
+	padding-top: 0.5%;
+}
+
+.logoPlacement {
+	padding-top: 0.5%;
+	margin-left: 75px;
+}
+ 
+.pushDownIcons {
+	padding: 25px 4px 0 4px;
+}
+
+.nav-link {
+	display: block;
+	padding: 0 40px 0 40px !important;
+}
+
+.currency {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 12px;
+	border-width: 1px;
+	border-style: solid;
+	padding: 8px 20px 8px 20px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.navLinks {
+	color: #2d4966;
+	vertical-align: top;
+	display: inline-block;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+	padding: 30px 70px 30px 70px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	opacity: 50%;
+}
+
+.navOptions {
+	color: #2d4966;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+	padding: 30px 30px 30px 30px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	opacity: 50%;
+}
+
+.centerPad {
+	padding: 0 50px 0 50px;
+}
+
+.logoPush {
+	margin: 50px 0 10px 75px;
+}
+
+.cart {
+	color: black;
+	letter-spacing: 1px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.productPic {
+	padding: 30px 80px 30px 30px;
+	border-color: lightgrey;
+	background-color: #eaeaea;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.productTitle {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+}
+
+.bagImage {
+	width: 50px;
+	right: 50px;
+}
+
+.itemsInfo {
+	display: flex;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 120px 100px 10px;
+	grid-gap: 7.5px;
+}
+
+.collections {
+	grid-template-columns: 30% 20% 25% 20%;
+	grid-gap: 7.5px;
+	color: #696969;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.collectionBox {
+	width: 20%;
+	height: 80%;
+	border-color: lightgrey;
+	background-color: #eaeaea;
+	border-width: 1px;
+	border-style: solid;
+	bottom: 10%;
+	position: absolute;
+}
+
+.collectionImage {
+	width: 20%;
+	margin-top: 25%;
+	margin-left: 40%;
+}
+
+.productFontColor {
+	color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.variantText {
+	font-size: 12px;
+	color: grey;
+	margin: 4px 0 2px 0;
+}
+
+.productAmount {
+	margin: 4px 0 8px 0;
+}
+
+.productTotalPrice {
+	font-weight: bold;
+	margin-bottom: -1px;
+}
+
+.cancelImage {
+	width: 12.5px;
+	margin: 0 15px 8px 0;
+}
+
+.flex-container {
+	display: flex;
+	background-color: DodgerBlue;
+}
+
+.iconSized {
+	height: 15px;
+	padding-bottom: 2.5px;
+}
+
+.shiftRightHead {
+	padding-left: 50px;
+}
+
+.shiftRight {
+	padding-left: 50px;
+}
+
+a:active a:hover a {
+	text-decoration: none;
+}
+
+.centerText {
+	padding-bottom: 260px;
+}
+
+.sliderHeader {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 70px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.brandInfo {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.firstCollection {
+	margin-right: 1300px;
+	color: #696969;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.checkoutBtn {
+	width: 160% !important;
+}
+
+.displayBlock {
+	position: absolute;
+	right: 6%;
+	top: 9%;
+}
+
+.noBorder{
+  border-style: none;
+  background-color: white;
+}
+
+.productNumberSize{
+  width: 20px;
+}
+
+.productPriceSize{
+  
+  font-weight: bold;
+}
+
+
+/*iPhone portrait*/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+	.shiftRightHead {
+		padding-left: 0px;
+	}
+	.currency:nth-child(2) {
+		bottom: 4%;
+		left: 140%;
+		position: absolute;
+	}
+	.col-8 {
+		max-width: 100% !important;
+	}
+	.newLine {
+		position: absolute !important;
+		top: 8%;
+		font-size: 12px;
+		z-index: 1;
+		padding: 2%;
+		background-color: #e9f0f7;
+	}
+	.shiftRightHead {
+		position: absolute;
+		margin-top: 10%;
+		left: 380%;
+	}
+	.preheader {
+		padding: 10px 0 10px 0;
+		background-color: #ced9e4!important;
+	}
+	.iconSized {
+		height: 20px;
+		position: absolute;
+		margin-left: 130%;
+		top: 1%;
+	}
+	.navbar {
+		margin-top: 8% !important;
+	}
+	.w-100 {
+		width: 400px !important;
+		height: 450px !important;
+		-ms-transform: scaleY(2.7);
+		/* IE 9 */
+		-webkit-transform: scaleY(2.7);
+		/* Safari 3-8 */
+		transform: scaleX(2.7);
+	}
+	.d-none {
+		display: block !important;
+	}
+	.sliderHeader {
+		font-size: 28px;
+		padding-bottom: 20px;
+	}
+	.brandInfo {
+		font-size: 15px;
+		padding-bottom: 20px;
+	}
+	.logoPlacement {
+		padding-top: 0.5%;
+		margin-right: 120px !important;
+		height: 40px;
+	}
+	.navOptions {
+		color: #2d4966;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 15px;
+		padding: 10px 0 10px 0px;
+		letter-spacing: 1px;
+		font-weight: bold;
+		opacity: 50%;
+	}
+	.displayBlock {
+		top: 80px;
+		position: fixed;
+		right: 4%;
+	}
+	.collections {
+		grid-template-columns: 100%;
+	}
+	.collectionBox {
+		display: none !important;
+	}
+}
+
+@media only screen and (min-width: 1281px) {
+	.navbar-nav {
+		margin-left: 18.5%;
+	}
+	.iconsPlacement {
+		margin-left: 250px;
+	}
+}
+
+@media (min-width: 992px) {
+	.navbar-nav {
+		margin-left: 17%;
+	}
+
+	.logoPlacement{
+		margin-left: 40px;
+	}
+
+	.iconsPlacement{
+		margin-left: 185px;	
+	}
+	
+	.displayBlock{
+		right: 5%;
+	}
+}
